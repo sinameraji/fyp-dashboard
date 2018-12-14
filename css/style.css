@@ -557,7 +557,7 @@ label.icon-search {
     border-left: 5px solid #80DF42;
 }
 .scrollbar{
-	height: 278px;
+	height: 316px;
     background: #fff;
     overflow-y: scroll;
 }
@@ -783,7 +783,7 @@ ul.wmuSliderPagination {
 }
 .slider-side-social-left{
 	float:left;
-	width:49%;
+	width:100%;
 	background:#6BC676;
 	padding:0.55em 1em;
 }

@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 
 <head>
-	<title>Personalized MOOC – Dashboard</title>
+	<title>Personalized Tech MOOC – Dashboard</title>
 	<!-- for-mobile-apps -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -44,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 	<div class="smart-main">
-		<h6 class="title">Personalized MOOC</h6>
+		<h6 class="title">Personalized Tech MOOC</h6>
 		<!-- navigation -->
 		<div class="navigation">
 			<div class="logo">
@@ -257,19 +257,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="col-md-6 navigation-bottom-right">
 				<div class="line-chart">
-					<div id="chart1"></div>
-					<div id="chart2"></div>
+					<div id="chart1"><h4>Video-based tutorials watched (minutes)</h4></div>
+					<div id="chart2"><h4>Text-based tutorials read (minutes)</h4></div>
 				</div>
 				<script src="js/fabochart.js"></script>
 				<script>
 					$(document).ready(function () {
 				data = {
-				  '2011' : 300, 
-				  '2012' : 200,
-				  '2013' : 100,
-				  '2014' : 500,
-				  '2015' : 400,
-				  '2016' : 200
+				  'October' : 100, 
+				  'November' : 90,
+				  'December' : 200
+				};
+				data_v = {
+				  'October' : 40, 
+				  'November' : 24,
+				  'December' : 70
 				};
 
 				$("#chart1").faBoChart({
@@ -277,7 +279,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  animate: true,
 				  instantAnimate: true,
 				  straight: false,
-				  data: data,
+				  data: data_v,
 				  labelTextColor : "#212121",
 				});
 				$("#chart2").faBoChart({
@@ -307,7 +309,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/1.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">qui officia deserunt</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -321,7 +323,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/2.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">vel illum qui dolorem</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -335,7 +337,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/3.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">quo voluptas nulla pari</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -355,7 +357,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/2.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">qui officia deserunt</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -369,7 +371,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/3.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">vel illum qui dolorem</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -383,7 +385,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/1.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">quo voluptas nulla pari</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -403,7 +405,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/3.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">qui officia deserunt</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -417,7 +419,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/2.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">vel illum qui dolorem</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -431,7 +433,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<a href="#"><img src="images/1.jpg" alt=" " class="img-responsive" /></a>
 										</div>
 										<div class="slider-grid-right">
-											<h3><a href="#">quo voluptas nulla pari</a></h3>
+											<h3><a href="#">Blog API headline</a></h3>
 											<ul>
 												<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><i>Admin</i></a></li>
 												<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><i>5</i></a></li>
@@ -454,12 +456,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="content">
 					<section>
 						<figure>
-							<video controls="controls" width="100%" height="100%" poster="media/banner.jpg" preload="metadata"
-							 aria-describedby="full-descript">
-								<source type="video/webm" src="media/video.webm" />
-								<source type="video/ogv" src="media/video.ogv" />
-								<source type="video/mp4" src="media/video.mp4" />
-							</video>
+								<iframe width="100%" height="290" src="https://www.youtube.com/embed/8cmx7V4oIR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
 							<div class="clearfix"></div>
 						</figure>
 					</section>
@@ -482,28 +480,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li><a href="#" class="instagram"><span>Instagram</span></a></li>
 						</ul>
 					</div>
-					<div class="slider-side-social-right">
-						<div class="slider-side-social-right-grid">
-							<div class="slider-side-social-right-twitter">
-								<span></span>
-							</div>
-							<div class="slider-side-social-right-twitterr">
-								<p>12K</p>
-								<h4>Following</h4>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="slider-side-social-right-grid">
-							<div class="slider-side-social-right-twitter1">
-								<span></span>
-							</div>
-							<div class="slider-side-social-right-twitterr">
-								<p>10K</p>
-								<h4>Followers</h4>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
+					
 					<div class="clearfix"> </div>
 				</div>
 			</div>
@@ -524,522 +501,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</ul>
 				</div>
 				<div class="quotes">
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit.</p>
+					<p>Our intelligence is what makes us human, and AI is an extension of that quality.</p>
 				</div>
 				<div class="quotes-bottom">
-					<p>Michael Smith</p>
-					<h4>Administrator</h4>
+					<p>Yann LeCun</p>
+					<h4>Head of AI research at Facebook</h4>
 				</div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 		<!-- //slider-social-icons -->
-		<!-- climate-icons -->
-		<div class="climate-icons">
-			<div class="climate-icons-left">
-				<div class="banner-bottom">
-					<div class="con-left">
-						<p><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Alaska, Mountains.</p>
-					</div>
-				</div>
-				<div class="strip"></div>
-				<div class="content-top">
-					<div class="content-left">
-						<h6>May 29th, 2016</h6>
-						<h3>5°</h3>
-					</div>
-					<div class="content-right">
-						<h5>Cloudy</h5>
-						<figure class="icons">
-							<canvas id="partly-cloudy-night" width="64" height="64">
-							</canvas>
-						</figure>
-					</div>
-					<div class="content-last">
-						<h6>WED</h6>
-						<figure class="icons">
-							<canvas id="clear-day" width="45" height="45">
-							</canvas>
-						</figure>
-						<p>25°</p>
-					</div>
-					<div class="content-last">
-						<h6>THU</h6>
-						<canvas id="fog" width="45" height="45">
-						</canvas>
-						<p>18°</p>
-					</div>
-					<div class="content-last">
-						<h6>FRI</h6>
-						<canvas id="wind" width="45" height="45">
-						</canvas>
-						<p>2°</p>
-					</div>
-					<div class="content-last">
-						<h6>SAT</h6>
-						<canvas id="partly-cloudy-day" width="45" height="45">
-						</canvas>
-						<p>22°</p>
-					</div>
-					<div class="content-last">
-						<h6>SUN</h6>
-						<canvas id="snow" width="45" height="45">
-						</canvas>
-						<p>-6°</p>
-					</div>
-					<div class="clearfix"></div>
-					<script>
-						var icons = new Skycons({"color": "#E8BA0A"}),
-							  list  = [
-								"partly-cloudy-night"
-							  ],
-							  i;
-
-						  for(i = list.length; i--; )
-							icons.set(list[i], list[i]);
-						  icons.play();
-					</script>
-					<script>
-						var icons = new Skycons({"color": "#999"}),
-							  list  = [
-								"clear-day","fog","wind","partly-cloudy-day","snow"
-							  ],
-							  i;
-
-						  for(i = list.length; i--; )
-							icons.set(list[i], list[i]);
-						  icons.play();
-					</script>
-				</div>
-			</div>
-			<div class="climate-icons-right">
-				<div class="sap_tabs">
-
-					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-
-						<ul>
-							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Sign up</span></li>
-							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Sign in</span></li>
-
-						</ul>
-						<!---->
-
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-							<div class="facts">
-								<!--login1-->
-								<div class="register">
-									<form action="#" method="post">
-										<input name="Name" placeholder="Name" type="text" required="">
-										<input name="Email Address" placeholder="Email Address" type="text" required="">
-										<input name="Password" placeholder="Password" type="password" required="">
-										<input name="Confirm Password" placeholder="Confirm Password" type="password" required="">
-										<div class="sign-up">
-											<input type="submit" value="Create Account" />
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-
-						<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
-							<div class="facts">
-								<div class="register">
-									<form action="#" method="post">
-										<input placeholder="Email Address" class="mail" type="text" name="Email Address" required="">
-										<input placeholder="Password" class="lock" type="password" name="Password" required="">
-										<div class="sign-up">
-											<input type="submit" value="Sign in" />
-										</div>
-									</form>
-									<h3><a href="#"> Forgot Password</a></h3>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-				<script type="text/javascript">
-					$(document).ready(function () {
-						$('#horizontalTab').easyResponsiveTabs({
-							type: 'default', //Types: default, vertical, accordion           
-							width: 'auto', //auto or any width like 600px
-							fit: true // 100% fit in a container
-						});
-					});
-				</script>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<!-- //climate-icons -->
-
-		<!-- calender-show-more -->
-		<div class="calender-show-more">
-			<div class="calender-show-more-left">
-				<div class="calender-lft">
-					<div class="calender-left1">
-						<h3><span></span>List</h3>
-					</div>
-					<div class="options">
-						<select id="country" onchange="change_country(this.value)" class="frm-field required dropdown">
-							<option value="null">Options</option>
-							<option value="null">English</option>
-							<option value="AX">French</option>
-							<option value="AX">German</option>
-							<option value="AX">Hindi</option>
-						</select>
-					</div>
-					<div class="clearfix"> </div>
-					<div class="close"> </div>
-				</div>
-				<div class="calendar-bottom">
-					<div class="load_more">
-						<script>
-							$(document).ready(function () {
-								size_li = $("#myList li").size();
-								x = 2;
-								$('#myList li:lt(' + x + ')').show();
-								$('#loadMore').click(function () {
-									x = (x + 1 <= size_li) ? x + 1 : size_li;
-									$('#myList li:lt(' + x + ')').show();
-								});
-								$('#showLess').click(function () {
-									x = (x - 1 < 0) ? 1 : x - 1;
-									$('#myList li').not(':lt(' + x + ')').hide();
-								});
-							});
-						</script>
-						<ul id="myList">
-							<li>
-								<div class="l_g">
-									<p><a href="#">01.01. <span>Brainstorm</span></a></p>
-									<p class="act"><a href="#">01.02. <span>Clients meeting</span></a></p>
-									<p><a href="#">01.03. <span>New design</span></a></p>
-								</div>
-							</li>
-							<li>
-								<div class="l_g">
-									<p class="act1"><a href="#">01.04. <span>Marketing idea making</span></a></p>
-									<p><a href="#">01.05. <span>Wireframe meeting</span></a></p>
-									<p class="act1"><a href="#">01.06. <span>Buy new games</span></a></p>
-									<p><a href="#">01.07. <span>Team building event</span></a></p>
-								</div>
-							</li>
-							<li>
-								<div class="l_g">
-									<p><a href="#">01.08. <span>Brainstorm</span></a></p>
-									<p class="act"><a href="#">01.09. <span>Clients meeting</span></a></p>
-								</div>
-							</li>
-							<li>
-								<div class="l_g">
-									<p><a href="#">02.01. <span>New design</span></a></p>
-									<p class="act1"><a href="#">02.02. <span>Marketing idea making</span></a></p>
-									<p><a href="#">02.03. <span>Wireframe meeting</span></a></p>
-									<p class="act1"><a href="#">02.04. <span>Buy new games</span></a></p>
-									<p><a href="#">02.05. <span>Team building event</span></a></p>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="calendar-bottom-grid">
-						<div class="calendar-bottom-gridl">
-							<a href="#" id="loadMore">Show all events</a>
-						</div>
-						<div class="calendar-bottom-gridl1">
-							<a href="#" id="showLess">Show less events</a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-			<div class="calender-show-more-right">
-				<div class="cal1">
-
-				</div>
-				<!--Calender-->
-				<script src="js/underscore-min.js" type="text/javascript"></script>
-				<script src="js/moment-2.2.1.js" type="text/javascript"></script>
-				<script src="js/clndr.js" type="text/javascript"></script>
-				<script src="js/site.js" type="text/javascript"></script>
-				<!--End Calender-->
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<!-- //calender-show-more -->
-		<!-- map-buttons -->
-		<div class="map-buttons">
-			<div class="map-buttons-left">
-				<div id="vmap" style="width:555px; height: 330px;"></div>
-				<script src="js/jquery.vmap.js" type="text/javascript"></script>
-				<script src="js/jquery.vmap.usa.js" type="text/javascript"></script>
-				<script type="text/javascript">
-					jQuery(document).ready(function () {
-						jQuery('#vmap').vectorMap({
-							map: 'usa_en',
-							enableZoom: true,
-							showTooltip: true,
-							selectedRegion: 'MO'
-						});
-					});
-				</script>
-			</div>
-			<div class="map-buttons-right">
-				<div class="dark-area">
-					<!-- some colors -->
-					<div id="lightcircle" class="c100 p77 dark big">
-						<span>77%</span>
-						<div class="slice">
-							<div class="bar"></div>
-							<div class="fill"></div>
-						</div>
-					</div>
-					<div id="dgreencircle" class="c100 p50 dark green1">
-						<span>50%</span>
-						<div class="slice">
-							<div class="bar"></div>
-							<div class="fill"></div>
-						</div>
-					</div>
-					<div id="sacircle" class="c100 p33 dark small pink">
-						<span>33%</span>
-						<div class="slice">
-							<div class="bar"></div>
-							<div class="fill"></div>
-						</div>
-					</div>
-					<!-- /some colors -->
-
-				</div><!-- /.dark-area -->
-				<script type="text/javascript" src="js/percircle.js"></script>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<!-- //map-buttons -->
-		<!-- different-buttons -->
-		<div class="different-buttons">
-			<h3>Animated Buttons</h3>
-			<div class="different-buttons-left">
-				<div class="toggle">
-					<div class="switech-grid">
-						<div class="demo5">
-							<div class="switch demo3">
-								<input type="checkbox">
-								<label><i></i></label>
-							</div>
-						</div>
-						<div class="demo6">
-							<div class="switch demo3">
-								<input type="checkbox" checked="">
-								<label><i></i></label>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="switech-grid">
-						<div class="demo5">
-							<div class="switch demo7">
-								<input type="checkbox">
-								<label><i></i></label>
-							</div>
-						</div>
-						<div class="demo6 toogle2">
-							<div class="switch demo7">
-								<input type="checkbox" checked="">
-								<label><i></i></label>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="switech-grid">
-						<div class="demo5">
-							<div class="switch demo4">
-								<input type="checkbox">
-								<label><i></i></label>
-							</div>
-						</div>
-						<div class="demo6">
-							<div class="switch demo4">
-								<input type="checkbox" checked="">
-								<label><i></i></label>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-			<div class="different-buttons-left1">
-				<div class="register-check-box-left">
-					<div class="register-check-box">
-						<div class="check">
-							<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i></label>
-						</div>
-					</div>
-					<div class="register-check-box">
-						<div class="check">
-							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i></label>
-						</div>
-					</div>
-					<div class="register-check-box">
-						<div class="check">
-							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i></label>
-						</div>
-					</div>
-				</div>
-				<div class="register-check-box-left1">
-					<div class="colr ert">
-						<label class="radio"><input type="radio" name="radio" checked=""><i></i>1.</label>
-					</div>
-					<div class="colr">
-						<label class="radio"><input type="radio" name="radio"><i></i>2.</label>
-					</div>
-					<div class="colr">
-						<label class="radio"><input type="radio" name="radio"><i></i>3.</label>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="different-buttons-right">
-				<a href="#" class="button1 green">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 red">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 blue">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 yellow">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 grey">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 black">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 brown">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 darkred">
-					<div class="light"></div>Click Here
-				</a>
-				<a href="#" class="button1 purple">
-					<div class="light"></div>Click Here
-				</a>
-			</div>
-			<div class="clearfix"> </div>
-			<div class="button-pagination">
-				<ul class="page-mid1">
-					<li><span class="pre1"><i class="glyphicon glyphicon-arrow-left" aria-hidden="true"></i></span></li>
-					<li><span>1</span></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><b>...</b></li>
-					<li><a class="next-top1" href="#"><i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i></a></li>
-				</ul>
-			</div>
-			<div class="click-button">
-				<h3>Click On The Buttons To See The Effect</h3>
-				<section class="color-7" id="btn-click">
-					<p>
-						<button class="btn1 btn-7 btn-7a icon-truck">Order item</button>
-						<button class="btn1 btn-7 btn-7b icon-envelope">Send message</button>
-					</p>
-					<p>
-						<button class="btn1 btn-7 btn-7c btn-icon-only icon-arrow-right">Submit</button>
-						<button class="btn1 btn-7 btn-7d btn-icon-only icon-remove">Empty</button>
-					</p>
-					<div id="trash-effect" class="trash-effect">
-						<button class="btn1 btn-7 btn-7i btn-icon-only icon-remove-2">Remove</button>
-						<div class="icon-file"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span></div>
-						<div class="icon-file"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span></div>
-						<div class="icon-file"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span></div>
-					</div>
-				</section>
-			</div>
-			<div class="tooltips">
-				<div class="tooltips1">
-					<h3>Tooltips In Four Directions</h3>
-					<button type="button" class="btn btn-default tip" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip
-						on left</button>
-
-					<button type="button" class="btn btn-default tip" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip
-						on top</button>
-
-					<button type="button" class="btn btn-default tip" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip
-						on bottom</button>
-
-					<button type="button" class="btn btn-default tip" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip
-						on right</button>
-				</div>
-				<div class="tooltips2">
-					<h4>Star Rating</h4>
-					<div class="ratings">
-						<span class="starRating">
-							<input id="rating5" type="radio" name="rating" value="5">
-							<label for="rating5">5</label>
-							<input id="rating4" type="radio" name="rating" value="4">
-							<label for="rating4">4</label>
-							<input id="rating3" type="radio" name="rating" value="3" checked>
-							<label for="rating3">3</label>
-							<input id="rating2" type="radio" name="rating" value="2">
-							<label for="rating2">2</label>
-							<input id="rating1" type="radio" name="rating" value="1">
-							<label for="rating1">1</label>
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-			<script>
-				$(function () {
-					  $('[data-toggle="tooltip"]').tooltip()
-					})
-				</script>
-			<script>
-				var buttons7Click = Array.prototype.slice.call( document.querySelectorAll( '#btn-click button' ) ),
-							buttons9Click = Array.prototype.slice.call( document.querySelectorAll( 'button.btn-8g' ) ),
-							totalButtons7Click = buttons7Click.length,
-							totalButtons9Click = buttons9Click.length;
-
-						buttons7Click.forEach( function( el, i ) { el.addEventListener( 'click', activate, false ); } );
-						buttons9Click.forEach( function( el, i ) { el.addEventListener( 'click', activate, false ); } );
-
-						function activate() {
-							var self = this, activatedClass = 'btn-activated';
-
-							if( classie.has( this, 'btn-7h' ) ) {
-								// if it is the first of the two btn-7h then activatedClass = 'btn-error';
-								// if it is the second then activatedClass = 'btn-success'
-								activatedClass = buttons7Click.indexOf( this ) === totalButtons7Click-2 ? 'btn-error' : 'btn-success';
-							}
-							else if( classie.has( this, 'btn-8g' ) ) {
-								// if it is the first of the two btn-8g then activatedClass = 'btn-success3d';
-								// if it is the second then activatedClass = 'btn-error3d'
-								activatedClass = buttons9Click.indexOf( this ) === totalButtons9Click-2 ? 'btn-success3d' : 'btn-error3d';
-							}
-
-							if( !classie.has( this, activatedClass ) ) {
-								classie.add( this, activatedClass );
-								setTimeout( function() { classie.remove( self, activatedClass ) }, 1000 );
-							}
-						}
-
-						document.querySelector( '.btn-7i' ).addEventListener( 'click', function() {
-							classie.add( document.querySelector( '#trash-effect' ), 'trash-effect-active' );
-						}, false );
-					</script>
-		</div>
-		<!-- //different-buttons -->
+		<
+		
 		<!-- newsletter -->
 		<div class="newsletter">
 			<h3>Newsletter</h3>
-			<p>Subscribe to our free Ui Kits for New updates.</p>
+			<p>Subscribe to my free newsletter to receive curated AI blog posts.</p>
 			<form action="#" method="post">
 				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
 				 required="">
@@ -1048,7 +525,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<!-- //newsletter -->
 		<div class="footer">
-			<p>© 2018</p>
+			<p>© 2018, all rights reserved</p>
 		</div>
 	</div>
 	<script src="js/bootstrap.js"></script>
